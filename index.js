@@ -1,1 +1,1 @@
-require('./build/structural/composite/main')
+require('./build/structural/proxy/main')
