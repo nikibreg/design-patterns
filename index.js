@@ -1,1 +1,1 @@
-require('./build/structural/adapter/main')
+require('./build/structural/composite/main')
