@@ -1,4 +1,4 @@
-import { Jedi } from ".";
+import { Jedi } from "..";
 
 export interface ISoldier {
     level: number;
