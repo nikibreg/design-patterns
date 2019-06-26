@@ -9,7 +9,7 @@ class Color implements IColor {
 class colorFactory implements IColorFactory {
     colors = {} as TColors;
 
-    constructor(public name: string) {
+    constructor() {
 
     }
 

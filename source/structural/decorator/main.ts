@@ -4,4 +4,5 @@ const sauce = new Penne()
 const withCheeseAndSauce = new CheeseDecorator(sauce)
 const withSauce = new SauceDecorator(sauce)
 
-withSauce.getPrice()
+const price = withSauce.getPrice()
+console.log(`Price with sauce: ${price}`)

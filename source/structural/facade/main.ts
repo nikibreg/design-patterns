@@ -1,4 +1,6 @@
 import ShopFacade from './index';
 
 const myFacade = new ShopFacade()
-myFacade.calc(10)
+const calculated = myFacade.calc(10)
+
+console.log(`total price is ${calculated}`)
