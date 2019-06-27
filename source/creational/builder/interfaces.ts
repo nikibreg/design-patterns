@@ -1,5 +1,3 @@
-import RequestBuilder from ".";
-
 export interface iRequest {
     url: string;
     method: string;
@@ -8,9 +6,9 @@ export interface iRequest {
 
 export interface iRequestBuilder {
     request: iRequest;
-    forUrl: (url: string) => RequestBuilder;
-    useMethod: (method: string) => RequestBuilder;
-    payload: (payload: object) => RequestBuilder;
+    forUrl: (url: string) => iRequestBuilder;
+    useMethod: (method: string) => iRequestBuilder;
+    payload: (payload: object) => iRequestBuilder;
     build: (url: string) => iRequest;
 }
 
