@@ -1,4 +1,4 @@
-import { IColor, IColorFactory, TColors } from "./interfaces";
+import { IColor, TColors } from "./interfaces";
 
 class Color implements IColor {
     constructor(public name: string) {
@@ -6,14 +6,14 @@ class Color implements IColor {
     }
 }
 
-class colorFactory implements IColorFactory {
-    colors = {} as TColors;
+abstract class ColorFactory {
+    static colors = {} as TColors;
 
     constructor() {
 
     }
 
-    create(name: string) {
+    static create(name: string) {
         if (name in this.colors) {
             return this.colors[name]
         } else {
@@ -25,5 +25,5 @@ class colorFactory implements IColorFactory {
 }
 
 export {
-    colorFactory
+    ColorFactory
 };

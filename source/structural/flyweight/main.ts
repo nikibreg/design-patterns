@@ -1,5 +1,5 @@
-import { colorFactory } from './index'
+import { ColorFactory } from './index'
 
-const palette = new colorFactory()
+const palette = ColorFactory
 const Red = palette.create("Red")
 console.log(`Palette colors: ${Object.keys(palette.colors)}`)
