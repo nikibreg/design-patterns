@@ -10,9 +10,9 @@ export class Soldier implements ISoldier {
     }
 }
 
-export class Jedi extends Soldier {
+export class Jedi {
     constructor(public level: number) {
-        super(level)
+
     }
 
     attackWithSaber(): number {
