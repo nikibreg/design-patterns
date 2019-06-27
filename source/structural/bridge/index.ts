@@ -1,5 +1,5 @@
 import { IPrinter, TInk, IInk } from "./interfaces";
-class Printer implements IPrinter {
+abstract class Printer implements IPrinter {
     constructor(public ink: Ink) {
 
     }
