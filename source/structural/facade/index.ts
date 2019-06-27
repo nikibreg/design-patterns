@@ -20,7 +20,7 @@ class ShopFacade implements IShopFacade {
 }
 
 class Discount implements ShopFacadeSubclass {
-    calc<value extends number>(value: value) {
+    calc(value: number): number {
         return value * 0.9;
     }
 }
@@ -32,7 +32,7 @@ class Shipping implements ShopFacadeSubclass {
 }
 
 class Fees implements ShopFacadeSubclass {
-    calc<value extends number>(value: value) {
+    calc(value: number): number {
         return value * 1.05;
     }
 }
