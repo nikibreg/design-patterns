@@ -1,4 +1,4 @@
-import { EpsonPrinter, HPprinter, AcrylicInk, AlcoholInk } from "./index";
+import { EpsonPrinter, HPprinter, AcrylicInk, AlcoholInk } from ".";
 
 const acrylic = new AcrylicInk();
 const alco = new AlcoholInk;

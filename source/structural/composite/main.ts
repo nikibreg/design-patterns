@@ -1,4 +1,4 @@
-import { Cabinet, FloppyDisk, Memory, HardDrive } from "./index";
+import { Cabinet, FloppyDisk, Memory, HardDrive } from ".";
 
 const floppy = new FloppyDisk();
 const ssd = new Memory()

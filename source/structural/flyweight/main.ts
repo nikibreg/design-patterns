@@ -1,4 +1,4 @@
-import { ColorFactory } from './index'
+import { ColorFactory } from '.'
 
 const palette = ColorFactory
 const Red = palette.create("Red")

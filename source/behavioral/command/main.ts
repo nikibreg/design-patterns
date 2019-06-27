@@ -1,4 +1,4 @@
-import { Cockpit, OffCommand, OnCommand, Turbine} from './index';
+import { Cockpit, OffCommand, OnCommand, Turbine} from '.';
 
 const myTurbine = new Turbine()
 

@@ -1,4 +1,4 @@
-import Iterator from './index';
+import Iterator from '.';
 
 const queue = ["Niki", "Andrii", "Roman"]
 const ticketMan = new Iterator(queue);

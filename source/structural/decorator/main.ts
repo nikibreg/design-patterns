@@ -1,4 +1,4 @@
-import { CheeseDecorator, Penne, SauceDecorator } from './index'
+import { CheeseDecorator, Penne, SauceDecorator } from '.'
 
 const sauce = new Penne()
 const withCheeseAndSauce = new CheeseDecorator(sauce)

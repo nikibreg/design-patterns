@@ -1,4 +1,4 @@
-import { Discount, ShoppingCart } from './index' 
+import { Discount, ShoppingCart } from '.' 
 
 const myCart = new ShoppingCart()
 const flashSale = new Discount()
