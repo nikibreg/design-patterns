@@ -1,8 +1,8 @@
-export interface IShopFacade {
-    discount: ShopFacadeSubclass;
+export interface IShopFacade extends IShop {
+    discount: IShop;
 
 }
 
-export interface ShopFacadeSubclass {
+export interface IShop {
     calc(value?: number): number;
 }

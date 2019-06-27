@@ -1,4 +1,4 @@
-import { ShopFacadeSubclass, IShopFacade } from "./interfaces";
+import { IShop, IShopFacade } from "./interfaces";
 
 class ShopFacade implements IShopFacade {
     discount: Discount;
@@ -19,19 +19,19 @@ class ShopFacade implements IShopFacade {
     }
 }
 
-class Discount implements ShopFacadeSubclass {
+class Discount implements IShop {
     calc(value: number): number {
         return value * 0.9;
     }
 }
 
-class Shipping implements ShopFacadeSubclass {
+class Shipping implements IShop {
     calc(): number {
         return 5;
     }
 }
 
-class Fees implements ShopFacadeSubclass {
+class Fees implements IShop {
     calc(value: number): number {
         return value * 1.05;
     }
