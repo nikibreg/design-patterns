@@ -5,7 +5,7 @@ class Car implements ICar {
     };
 }
 
-class CarProxy implements ICar {
+class CarProxy {
     constructor(public driver: IDriver) {
 
     }
