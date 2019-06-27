@@ -12,4 +12,4 @@
 // require('./build/creational/prototype/main')
 // require('./build/creational/singleton/main')
 
-require('./build/behavioral/memento/main')
+require('./build/behavioral/observer/main')
