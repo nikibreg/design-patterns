@@ -12,4 +12,12 @@
 // require('./build/creational/prototype/main')
 // require('./build/creational/singleton/main')
 
-require('./build/behavioral/observer/main')
+// require('./build/behavioral/chain-of-responsibility/main')
+// require('./build/behavioral/command/main')
+// require('./build/behavioral/iterator/main')
+// require('./build/behavioral/mediator/main')
+// require('./build/behavioral/memento/main')
+// require('./build/behavioral/observer/main')
+// require('./build/behavioral/state/main')
+// require('./build/behavioral/strategy/main')
+require('./build/behavioral/template/main')
