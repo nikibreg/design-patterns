@@ -20,4 +20,5 @@
 // require('./build/behavioral/observer/main')
 // require('./build/behavioral/state/main')
 // require('./build/behavioral/strategy/main')
-require('./build/behavioral/template/main')
+// require('./build/behavioral/template/main')
+// require('./build/behavioral/visitor/main')
